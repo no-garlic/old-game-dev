@@ -1,0 +1,140 @@
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\wave.tga
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\SurfaceMap.tga
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\\Fences_00.tga
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\\bldng05.tga
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\\roof02.tga
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\\metal11.tga
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\\tree-gum_01.tga
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\\tree-gum_00.tga
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\\Bush.tga
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\\tree_04.tga
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\\SANDSHOR.JPG
+** INFO **    07/09/07 22:03:19, Material.cpp [83] - Loaded the texture file: ./Data\\hit_stop.tga
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-3_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-3_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-3_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-3_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-6_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-6_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-6_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-6_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-6_2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-6_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_1_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_1_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_1_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_1_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_2_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_2_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_2_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_2_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_3_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_3_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_3_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_4_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_4_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_4_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_4_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_6_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_6_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_6_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_6_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_6_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_6_2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_6_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_-4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-1_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-2_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-3_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-3_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-3_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-3_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-3_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-3_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-4_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_-5_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_0_4
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_1_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_1_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_1_1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_1_2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_2_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_2_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_3_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_3_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_4_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_4_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_4_3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_-1
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_-2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_-3
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_0
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_2
+** INFO **    07/09/07 22:03:20, Terrain.cpp [61] - Creating Spatial Cell: Trees_5_3
+** INFO **    07/09/07 22:03:20, Material.cpp [83] - Loaded the texture file: ./Data\\Sea Doo.tga
+** INFO **    07/09/07 22:03:20, Material.cpp [83] - Loaded the texture file: ./Data\\body.tga
+** INFO **    07/09/07 22:03:20, Material.cpp [83] - Loaded the texture file: ./Data\\face.tga
+** INFO **    07/09/07 22:03:20, Material.cpp [83] - Loaded the texture file: ./Data\\hair.tga
+** INFO **    07/09/07 22:03:20, Material.cpp [83] - Loaded the texture file: ./Data\\hair_a.tga
+** INFO **    07/09/07 22:03:20, Material.cpp [83] - Loaded the texture file: ./Data\\SkyBoxClouds1.tga
+** INFO **    07/09/07 22:03:20, Material.cpp [83] - Loaded the texture file: ./Data\\SkyBoxClouds2.tga
+** INFO **    07/09/07 22:03:20, Material.cpp [83] - Loaded the texture file: ./Data\splash.tga
+** INFO **    07/09/07 22:03:20, Material.cpp [83] - Loaded the texture file: ./Data\\buoyl.tga
+** INFO **    07/09/07 22:03:20, Material.cpp [83] - Loaded the texture file: ./Data\\buoyr.tga

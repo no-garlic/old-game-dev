@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LevelEditor">
+</Property><Property Name="Solution File" Value="D:\Reference\Code\P4_2007\2008\Main\Source\Projects\LevelEditor\LevelEditor.sln">
+</Property><Property Name="Date" Value="Tuesday, 7 September 2010">
+</Property><Property Name="Time" Value="19:11:17 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="Cal3D" Source="..\..\Engine\Cal3D\Cal3D.vcproj" Description="The project file 'D:\Reference\Code\P4_2007\2008\Main\Source\Engine\Cal3D\Cal3D.vcproj' cannot be updated to this Visual Studio 2008 version format because it is read-only on disk. Please set the permissions on the project file and re-open it to migrate the project.">
+</Event></UpgradeLog>

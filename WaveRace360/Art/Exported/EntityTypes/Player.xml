@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<EntityType>
+    <Entity name="Player" color="0,0,255" shape="CUBE" scale="1.000000,1.000000,1.000000">
+        <Property name="" value="" />
+    </Entity>
+</EntityType>

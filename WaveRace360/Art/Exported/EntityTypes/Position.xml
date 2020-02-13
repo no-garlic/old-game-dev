@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<EntityType>
+    <Entity name="Position" color="255,0,0" shape="SPHERE" scale="1.000000,1.000000,1.000000">
+        <Property name="" value="" />
+    </Entity>
+</EntityType>

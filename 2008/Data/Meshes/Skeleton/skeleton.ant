@@ -1,0 +1,6 @@
+
+Animation()
+{
+  Walk = skeleton_walk.caf;
+  Wave = skeleton_wave.caf;
+}

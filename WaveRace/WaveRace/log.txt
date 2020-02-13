@@ -1,0 +1,141 @@
+** INFO **    Loaded the texture file: ./Exported/Wave\wave.tga
+** INFO **    Loaded the texture file: ./Exported/SkyBox\SurfaceMap.tga
+** INFO **    Loaded the texture file: ./Exported/SkyBox\SurfaceMap2.tga
+** INFO **    Loaded the texture file: ./Exported/Terrain\\Fences_00.tga
+** INFO **    Loaded the texture file: ./Exported/Terrain\\bldng05.tga
+** INFO **    Loaded the texture file: ./Exported/Terrain\\roof02.tga
+** INFO **    Loaded the texture file: ./Exported/Terrain\\metal11.tga
+** INFO **    Loaded the texture file: ./Data\\tree-gum_01.tga
+** INFO **    Loaded the texture file: ./Data\\tree-gum_00.tga
+** INFO **    Loaded the texture file: ./Exported/Terrain\\Bush.tga
+** INFO **    Loaded the texture file: ./Data\\tree_04.tga
+** INFO **    Loaded the texture file: ./Exported/Terrain\\SANDSHOR.JPG
+** INFO **    Loaded the texture file: ./Exported/Terrain\\hit_stop.tga
+** INFO **    Creating Spatial Cell: Trees_-1_-1
+** INFO **    Creating Spatial Cell: Trees_-1_-4
+** INFO **    Creating Spatial Cell: Trees_-1_1
+** INFO **    Creating Spatial Cell: Trees_-1_3
+** INFO **    Creating Spatial Cell: Trees_-1_4
+** INFO **    Creating Spatial Cell: Trees_-2_-1
+** INFO **    Creating Spatial Cell: Trees_-2_-2
+** INFO **    Creating Spatial Cell: Trees_-2_-3
+** INFO **    Creating Spatial Cell: Trees_-2_-4
+** INFO **    Creating Spatial Cell: Trees_-2_0
+** INFO **    Creating Spatial Cell: Trees_-2_1
+** INFO **    Creating Spatial Cell: Trees_-2_2
+** INFO **    Creating Spatial Cell: Trees_-2_3
+** INFO **    Creating Spatial Cell: Trees_-2_4
+** INFO **    Creating Spatial Cell: Trees_-3_-3
+** INFO **    Creating Spatial Cell: Trees_-3_-4
+** INFO **    Creating Spatial Cell: Trees_-3_0
+** INFO **    Creating Spatial Cell: Trees_-3_4
+** INFO **    Creating Spatial Cell: Trees_-4_-1
+** INFO **    Creating Spatial Cell: Trees_-4_-2
+** INFO **    Creating Spatial Cell: Trees_-4_-3
+** INFO **    Creating Spatial Cell: Trees_-4_-4
+** INFO **    Creating Spatial Cell: Trees_-4_0
+** INFO **    Creating Spatial Cell: Trees_-4_1
+** INFO **    Creating Spatial Cell: Trees_-4_2
+** INFO **    Creating Spatial Cell: Trees_-4_4
+** INFO **    Creating Spatial Cell: Trees_-5_-1
+** INFO **    Creating Spatial Cell: Trees_-5_-2
+** INFO **    Creating Spatial Cell: Trees_-5_-3
+** INFO **    Creating Spatial Cell: Trees_-5_-4
+** INFO **    Creating Spatial Cell: Trees_-5_0
+** INFO **    Creating Spatial Cell: Trees_-5_1
+** INFO **    Creating Spatial Cell: Trees_-5_2
+** INFO **    Creating Spatial Cell: Trees_-5_3
+** INFO **    Creating Spatial Cell: Trees_-5_4
+** INFO **    Creating Spatial Cell: Trees_-6_-2
+** INFO **    Creating Spatial Cell: Trees_-6_-3
+** INFO **    Creating Spatial Cell: Trees_-6_0
+** INFO **    Creating Spatial Cell: Trees_-6_1
+** INFO **    Creating Spatial Cell: Trees_-6_2
+** INFO **    Creating Spatial Cell: Trees_-6_3
+** INFO **    Creating Spatial Cell: Trees_0_-1
+** INFO **    Creating Spatial Cell: Trees_0_-2
+** INFO **    Creating Spatial Cell: Trees_0_-4
+** INFO **    Creating Spatial Cell: Trees_0_4
+** INFO **    Creating Spatial Cell: Trees_1_-1
+** INFO **    Creating Spatial Cell: Trees_1_-2
+** INFO **    Creating Spatial Cell: Trees_1_-4
+** INFO **    Creating Spatial Cell: Trees_1_4
+** INFO **    Creating Spatial Cell: Trees_2_-1
+** INFO **    Creating Spatial Cell: Trees_2_-2
+** INFO **    Creating Spatial Cell: Trees_2_-4
+** INFO **    Creating Spatial Cell: Trees_2_4
+** INFO **    Creating Spatial Cell: Trees_3_-2
+** INFO **    Creating Spatial Cell: Trees_3_-4
+** INFO **    Creating Spatial Cell: Trees_3_4
+** INFO **    Creating Spatial Cell: Trees_4_-1
+** INFO **    Creating Spatial Cell: Trees_4_-4
+** INFO **    Creating Spatial Cell: Trees_4_3
+** INFO **    Creating Spatial Cell: Trees_4_4
+** INFO **    Creating Spatial Cell: Trees_5_-1
+** INFO **    Creating Spatial Cell: Trees_5_-2
+** INFO **    Creating Spatial Cell: Trees_5_-4
+** INFO **    Creating Spatial Cell: Trees_5_0
+** INFO **    Creating Spatial Cell: Trees_5_1
+** INFO **    Creating Spatial Cell: Trees_5_2
+** INFO **    Creating Spatial Cell: Trees_5_3
+** INFO **    Creating Spatial Cell: Trees_5_4
+** INFO **    Creating Spatial Cell: Trees_6_-1
+** INFO **    Creating Spatial Cell: Trees_6_-2
+** INFO **    Creating Spatial Cell: Trees_6_-3
+** INFO **    Creating Spatial Cell: Trees_6_0
+** INFO **    Creating Spatial Cell: Trees_6_1
+** INFO **    Creating Spatial Cell: Trees_6_2
+** INFO **    Creating Spatial Cell: Trees_6_3
+** INFO **    Creating Spatial Cell: Trees_-1_-2
+** INFO **    Creating Spatial Cell: Trees_-1_-3
+** INFO **    Creating Spatial Cell: Trees_-1_-4
+** INFO **    Creating Spatial Cell: Trees_-1_0
+** INFO **    Creating Spatial Cell: Trees_-1_1
+** INFO **    Creating Spatial Cell: Trees_-1_3
+** INFO **    Creating Spatial Cell: Trees_-2_-2
+** INFO **    Creating Spatial Cell: Trees_-2_0
+** INFO **    Creating Spatial Cell: Trees_-3_-1
+** INFO **    Creating Spatial Cell: Trees_-3_-3
+** INFO **    Creating Spatial Cell: Trees_-3_0
+** INFO **    Creating Spatial Cell: Trees_-3_1
+** INFO **    Creating Spatial Cell: Trees_-3_3
+** INFO **    Creating Spatial Cell: Trees_-3_4
+** INFO **    Creating Spatial Cell: Trees_-4_-3
+** INFO **    Creating Spatial Cell: Trees_-4_1
+** INFO **    Creating Spatial Cell: Trees_-4_3
+** INFO **    Creating Spatial Cell: Trees_-5_-3
+** INFO **    Creating Spatial Cell: Trees_-5_3
+** INFO **    Creating Spatial Cell: Trees_0_-1
+** INFO **    Creating Spatial Cell: Trees_0_-2
+** INFO **    Creating Spatial Cell: Trees_0_-3
+** INFO **    Creating Spatial Cell: Trees_0_0
+** INFO **    Creating Spatial Cell: Trees_0_1
+** INFO **    Creating Spatial Cell: Trees_0_3
+** INFO **    Creating Spatial Cell: Trees_0_4
+** INFO **    Creating Spatial Cell: Trees_1_-3
+** INFO **    Creating Spatial Cell: Trees_1_0
+** INFO **    Creating Spatial Cell: Trees_1_1
+** INFO **    Creating Spatial Cell: Trees_1_2
+** INFO **    Creating Spatial Cell: Trees_2_-3
+** INFO **    Creating Spatial Cell: Trees_2_0
+** INFO **    Creating Spatial Cell: Trees_3_-3
+** INFO **    Creating Spatial Cell: Trees_3_3
+** INFO **    Creating Spatial Cell: Trees_4_-3
+** INFO **    Creating Spatial Cell: Trees_4_0
+** INFO **    Creating Spatial Cell: Trees_4_3
+** INFO **    Creating Spatial Cell: Trees_5_-1
+** INFO **    Creating Spatial Cell: Trees_5_-2
+** INFO **    Creating Spatial Cell: Trees_5_-3
+** INFO **    Creating Spatial Cell: Trees_5_0
+** INFO **    Creating Spatial Cell: Trees_5_2
+** INFO **    Creating Spatial Cell: Trees_5_3
+** INFO **    Loaded the texture file: ./Exported/Vessels\\Sea Doo.tga
+** INFO **    Loaded the texture file: ./Exported/Vessels\\body.tga
+** INFO **    Loaded the texture file: ./Exported/Vessels\\face.tga
+** INFO **    Loaded the texture file: ./Exported/Vessels\\hair.tga
+** INFO **    Loaded the texture file: ./Exported/Vessels\\hair_a.tga
+** INFO **    Loaded the texture file: ./Exported/SkyBox\\SkyBoxClouds1.tga
+** INFO **    Loaded the texture file: ./Exported/SkyBox\\SkyBoxClouds2.tga
+** INFO **    Loaded the texture file: ./Exported/Wave\splash.tga
+** INFO **    Loaded the texture file: ./Exported/Buoys\\buoyl.tga
+** INFO **    Loaded the texture file: ./Exported/Buoys\\buoyr.tga

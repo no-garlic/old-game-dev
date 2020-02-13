@@ -1,0 +1,6 @@
+
+ps.1.1
+
+// c0 is the constant color
+
+mov r0, c0

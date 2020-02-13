@@ -1,0 +1,112 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample_05_UI", "Sample_05_UI.vcproj", "{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D} = {713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine.vcproj", "{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample_01_CreateDevice", "Sample_01_CreateDevice.vcproj", "{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D} = {713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample_02_LoadMesh", "Sample_02_LoadMesh.vcproj", "{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D} = {713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample_03_CustomMesh", "Sample_03_CustomMesh.vcproj", "{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D} = {713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample_04_Shaders", "Sample_04_Shaders.vcproj", "{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D} = {713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccProjectUniqueName0 = Sample_05_UI.vcproj
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = Xbox\\
+		SccProjectUniqueName1 = Sample_01_CreateDevice.vcproj
+		SccProjectName1 = Perforce\u0020Project
+		SccLocalPath1 = ..
+		SccProvider1 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = Xbox\\
+		SccProjectUniqueName2 = Sample_02_LoadMesh.vcproj
+		SccProjectName2 = Perforce\u0020Project
+		SccLocalPath2 = ..
+		SccProvider2 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = Xbox\\
+		SccProjectUniqueName3 = Sample_03_CustomMesh.vcproj
+		SccProjectName3 = Perforce\u0020Project
+		SccLocalPath3 = ..
+		SccProvider3 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection3 = Xbox\\
+		SccProjectUniqueName4 = Sample_04_Shaders.vcproj
+		SccProjectName4 = Perforce\u0020Project
+		SccLocalPath4 = ..
+		SccProvider4 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection4 = Xbox\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Final = Final
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Debug.ActiveCfg = Debug|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Debug.Build.0 = Debug|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Final.ActiveCfg = Final|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Final.Build.0 = Final|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Release.ActiveCfg = Release|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Release.Build.0 = Release|Xbox
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}.Debug.ActiveCfg = Debug|Xbox
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}.Debug.Build.0 = Debug|Xbox
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}.Final.ActiveCfg = Final|Xbox
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}.Final.Build.0 = Final|Xbox
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}.Release.ActiveCfg = Release|Xbox
+		{713C0DC8-6CBA-4923-9A1C-628C8B2AD73D}.Release.Build.0 = Release|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Debug.ActiveCfg = Debug|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Debug.Build.0 = Debug|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Final.ActiveCfg = Final|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Final.Build.0 = Final|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Release.ActiveCfg = Release|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Release.Build.0 = Release|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Debug.ActiveCfg = Debug|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Debug.Build.0 = Debug|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Final.ActiveCfg = Final|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Final.Build.0 = Final|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Release.ActiveCfg = Release|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Release.Build.0 = Release|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Debug.ActiveCfg = Debug|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Debug.Build.0 = Debug|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Final.ActiveCfg = Final|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Final.Build.0 = Final|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Release.ActiveCfg = Release|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Release.Build.0 = Release|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Debug.ActiveCfg = Debug|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Debug.Build.0 = Debug|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Final.ActiveCfg = Final|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Final.Build.0 = Final|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Release.ActiveCfg = Release|Xbox
+		{C55F3D1C-74C6-469A-8E35-70C90F33ECCC}.Release.Build.0 = Release|Xbox
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

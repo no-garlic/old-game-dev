@@ -1,0 +1,148 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ActionGame", "ActionGame.vcproj", "{563F9652-E484-4F5E-ABBD-67887B47092C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B} = {8259605C-AB42-476E-9B4E-5E1A14D2EC5B}
+		{56A43564-69E8-4D29-91E8-8CB0499C541D} = {56A43564-69E8-4D29-91E8-8CB0499C541D}
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19} = {0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4} = {F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0} = {65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080} = {42D5089A-DF9D-4CAC-8B2C-265A445E8080}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E474D1BD-C86C-48E8-9314-F45B5CAE980A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Engine\Include\libEngine.h = ..\..\Engine\Include\libEngine.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderCore", "..\..\Engine\RenderCore\RenderCore.vcproj", "{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Standard", "..\..\Engine\Standard\Standard.vcproj", "{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderExt", "..\..\Engine\RenderExt\RenderExt.vcproj", "{56A43564-69E8-4D29-91E8-8CB0499C541D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Render2D", "..\..\Engine\Render2D\Render2D.vcproj", "{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maths", "..\..\Engine\Maths\Maths.vcproj", "{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cal3D", "..\..\Engine\Cal3D\Cal3D.vcproj", "{42D5089A-DF9D-4CAC-8B2C-265A445E8080}"
+	ProjectSection(ProjectDependencies) = postProject
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0} = {65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4} = {F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19} = {0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}
+		{56A43564-69E8-4D29-91E8-8CB0499C541D} = {56A43564-69E8-4D29-91E8-8CB0499C541D}
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B} = {8259605C-AB42-476E-9B4E-5E1A14D2EC5B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 8
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..\\..\\..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		SccProjectFilePathRelativizedFromConnection0 = Source\\Projects\\ActionGame\\
+		SccProjectUniqueName1 = ActionGame.vcproj
+		SccLocalPath1 = ..\\..\\..
+		SccProjectFilePathRelativizedFromConnection1 = Source\\Projects\\ActionGame\\
+		SccProjectUniqueName2 = ..\\..\\Engine\\RenderCore\\RenderCore.vcproj
+		SccLocalPath2 = ..\\..\\..
+		SccProjectFilePathRelativizedFromConnection2 = Source\\Engine\\RenderCore\\
+		SccProjectUniqueName3 = ..\\..\\Engine\\Standard\\Standard.vcproj
+		SccLocalPath3 = ..\\..\\..
+		SccProjectFilePathRelativizedFromConnection3 = Source\\Engine\\Standard\\
+		SccProjectUniqueName4 = ..\\..\\Engine\\RenderExt\\RenderExt.vcproj
+		SccLocalPath4 = ..\\..\\..
+		SccProjectFilePathRelativizedFromConnection4 = Source\\Engine\\RenderExt\\
+		SccProjectUniqueName5 = ..\\..\\Engine\\Render2D\\Render2D.vcproj
+		SccLocalPath5 = ..\\..\\..
+		SccProjectFilePathRelativizedFromConnection5 = Source\\Engine\\Render2D\\
+		SccProjectUniqueName6 = ..\\..\\Engine\\Maths\\Maths.vcproj
+		SccLocalPath6 = ..\\..\\..
+		SccProjectFilePathRelativizedFromConnection6 = Source\\Engine\\Maths\\
+		SccProjectUniqueName7 = ..\\..\\Engine\\Cal3D\\Cal3D.vcproj
+		SccLocalPath7 = ..\\..\\..
+		SccProjectFilePathRelativizedFromConnection7 = Source\\Engine\\Cal3D\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug-Tools|Win32 = Debug-Tools|Win32
+		Release|Win32 = Release|Win32
+		Release-Final|Win32 = Release-Final|Win32
+		Release-Tools|Win32 = Release-Tools|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{563F9652-E484-4F5E-ABBD-67887B47092C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{563F9652-E484-4F5E-ABBD-67887B47092C}.Debug|Win32.Build.0 = Debug|Win32
+		{563F9652-E484-4F5E-ABBD-67887B47092C}.Debug-Tools|Win32.ActiveCfg = Debug-Tools|Win32
+		{563F9652-E484-4F5E-ABBD-67887B47092C}.Debug-Tools|Win32.Build.0 = Debug-Tools|Win32
+		{563F9652-E484-4F5E-ABBD-67887B47092C}.Release|Win32.ActiveCfg = Release|Win32
+		{563F9652-E484-4F5E-ABBD-67887B47092C}.Release|Win32.Build.0 = Release|Win32
+		{563F9652-E484-4F5E-ABBD-67887B47092C}.Release-Final|Win32.ActiveCfg = Release-Final|Win32
+		{563F9652-E484-4F5E-ABBD-67887B47092C}.Release-Final|Win32.Build.0 = Release-Final|Win32
+		{563F9652-E484-4F5E-ABBD-67887B47092C}.Release-Tools|Win32.ActiveCfg = Release-Tools|Win32
+		{563F9652-E484-4F5E-ABBD-67887B47092C}.Release-Tools|Win32.Build.0 = Release-Tools|Win32
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}.Debug|Win32.Build.0 = Debug|Win32
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}.Debug-Tools|Win32.ActiveCfg = Debug-Tools|Win32
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}.Debug-Tools|Win32.Build.0 = Debug-Tools|Win32
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}.Release|Win32.ActiveCfg = Release|Win32
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}.Release|Win32.Build.0 = Release|Win32
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}.Release-Final|Win32.ActiveCfg = Release-Final|Win32
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}.Release-Final|Win32.Build.0 = Release-Final|Win32
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}.Release-Tools|Win32.ActiveCfg = Release-Tools|Win32
+		{65502DEE-57B6-4B5C-8085-90A5B7FBDEE0}.Release-Tools|Win32.Build.0 = Release-Tools|Win32
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}.Debug|Win32.Build.0 = Debug|Win32
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}.Debug-Tools|Win32.ActiveCfg = Debug-Tools|Win32
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}.Debug-Tools|Win32.Build.0 = Debug-Tools|Win32
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}.Release|Win32.ActiveCfg = Release|Win32
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}.Release|Win32.Build.0 = Release|Win32
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}.Release-Final|Win32.ActiveCfg = Release-Final|Win32
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}.Release-Final|Win32.Build.0 = Release-Final|Win32
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}.Release-Tools|Win32.ActiveCfg = Release-Tools|Win32
+		{0581B9BF-4BD8-4172-8DD7-FDAB0861DA19}.Release-Tools|Win32.Build.0 = Release-Tools|Win32
+		{56A43564-69E8-4D29-91E8-8CB0499C541D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56A43564-69E8-4D29-91E8-8CB0499C541D}.Debug|Win32.Build.0 = Debug|Win32
+		{56A43564-69E8-4D29-91E8-8CB0499C541D}.Debug-Tools|Win32.ActiveCfg = Debug-Tools|Win32
+		{56A43564-69E8-4D29-91E8-8CB0499C541D}.Debug-Tools|Win32.Build.0 = Debug-Tools|Win32
+		{56A43564-69E8-4D29-91E8-8CB0499C541D}.Release|Win32.ActiveCfg = Release|Win32
+		{56A43564-69E8-4D29-91E8-8CB0499C541D}.Release|Win32.Build.0 = Release|Win32
+		{56A43564-69E8-4D29-91E8-8CB0499C541D}.Release-Final|Win32.ActiveCfg = Release-Final|Win32
+		{56A43564-69E8-4D29-91E8-8CB0499C541D}.Release-Final|Win32.Build.0 = Release-Final|Win32
+		{56A43564-69E8-4D29-91E8-8CB0499C541D}.Release-Tools|Win32.ActiveCfg = Release-Tools|Win32
+		{56A43564-69E8-4D29-91E8-8CB0499C541D}.Release-Tools|Win32.Build.0 = Release-Tools|Win32
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}.Debug|Win32.Build.0 = Debug|Win32
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}.Debug-Tools|Win32.ActiveCfg = Debug-Tools|Win32
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}.Debug-Tools|Win32.Build.0 = Debug-Tools|Win32
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}.Release|Win32.ActiveCfg = Release|Win32
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}.Release|Win32.Build.0 = Release|Win32
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}.Release-Final|Win32.ActiveCfg = Release-Final|Win32
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}.Release-Final|Win32.Build.0 = Release-Final|Win32
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}.Release-Tools|Win32.ActiveCfg = Release-Tools|Win32
+		{8259605C-AB42-476E-9B4E-5E1A14D2EC5B}.Release-Tools|Win32.Build.0 = Release-Tools|Win32
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}.Debug|Win32.Build.0 = Debug|Win32
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}.Debug-Tools|Win32.ActiveCfg = Debug-Tools|Win32
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}.Debug-Tools|Win32.Build.0 = Debug-Tools|Win32
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}.Release|Win32.ActiveCfg = Release|Win32
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}.Release|Win32.Build.0 = Release|Win32
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}.Release-Final|Win32.ActiveCfg = Release-Final|Win32
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}.Release-Final|Win32.Build.0 = Release-Final|Win32
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}.Release-Tools|Win32.ActiveCfg = Release-Tools|Win32
+		{F08BD4CE-606F-4AE8-BF5B-79DD937F89F4}.Release-Tools|Win32.Build.0 = Release-Tools|Win32
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080}.Debug|Win32.Build.0 = Debug|Win32
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080}.Debug-Tools|Win32.ActiveCfg = Debug-Tools|Win32
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080}.Debug-Tools|Win32.Build.0 = Debug-Tools|Win32
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080}.Release|Win32.ActiveCfg = Release|Win32
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080}.Release|Win32.Build.0 = Release|Win32
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080}.Release-Final|Win32.ActiveCfg = Release-Final|Win32
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080}.Release-Final|Win32.Build.0 = Release-Final|Win32
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080}.Release-Tools|Win32.ActiveCfg = Release-Tools|Win32
+		{42D5089A-DF9D-4CAC-8B2C-265A445E8080}.Release-Tools|Win32.Build.0 = Release-Tools|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

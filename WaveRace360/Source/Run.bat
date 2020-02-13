@@ -1,0 +1,1 @@
+start .\WaveRace360\bin\x86\Debug\WaveRace360.exe

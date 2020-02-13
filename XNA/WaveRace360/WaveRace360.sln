@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveRace360", "WaveRace360.csproj", "{41AB47BF-2F70-427C-91AB-AD720CB63B99}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED68B1C4-2C44-42C9-96F8-34481073F92D} = {ED68B1C4-2C44-42C9-96F8-34481073F92D}
+		{A63BED48-66EF-4C80-9257-08AA0CA67220} = {A63BED48-66EF-4C80-9257-08AA0CA67220}
+		{EC0E6A3F-6034-46FA-8F3E-7CCA4F718590} = {EC0E6A3F-6034-46FA-8F3E-7CCA4F718590}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freeworld3D", "..\Freeworld3D\Freeworld3D.csproj", "{A63BED48-66EF-4C80-9257-08AA0CA67220}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED68B1C4-2C44-42C9-96F8-34481073F92D} = {ED68B1C4-2C44-42C9-96F8-34481073F92D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{ED68B1C4-2C44-42C9-96F8-34481073F92D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terrain", "..\Terrain\Terrain.csproj", "{EC0E6A3F-6034-46FA-8F3E-7CCA4F718590}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED68B1C4-2C44-42C9-96F8-34481073F92D} = {ED68B1C4-2C44-42C9-96F8-34481073F92D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 7
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WaveRace360.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = Content\\Content.contentproj
+		SccProjectTopLevelParentUniqueName2 = WaveRace360.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Content\\
+		SccProjectUniqueName3 = ..\\Freeworld3D\\Freeworld3D.csproj
+		SccLocalPath3 = ..\\Freeworld3D
+		SccProjectUniqueName4 = ..\\Common\\Common.csproj
+		SccLocalPath4 = ..\\Common
+		SccProjectUniqueName5 = ..\\Common\\Content\\Content.contentproj
+		SccProjectTopLevelParentUniqueName5 = ..\\Common\\Common.csproj
+		SccLocalPath5 = ..\\Common
+		SccProjectFilePathRelativizedFromConnection5 = Content\\
+		SccProjectUniqueName6 = ..\\Terrain\\Terrain.csproj
+		SccLocalPath6 = ..\\Terrain
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Debug|Xbox 360 = Debug|Xbox 360
+		Release|x86 = Release|x86
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41AB47BF-2F70-427C-91AB-AD720CB63B99}.Debug|x86.ActiveCfg = Debug|x86
+		{41AB47BF-2F70-427C-91AB-AD720CB63B99}.Debug|x86.Build.0 = Debug|x86
+		{41AB47BF-2F70-427C-91AB-AD720CB63B99}.Debug|Xbox 360.ActiveCfg = Debug|x86
+		{41AB47BF-2F70-427C-91AB-AD720CB63B99}.Release|x86.ActiveCfg = Release|x86
+		{41AB47BF-2F70-427C-91AB-AD720CB63B99}.Release|x86.Build.0 = Release|x86
+		{41AB47BF-2F70-427C-91AB-AD720CB63B99}.Release|Xbox 360.ActiveCfg = Release|x86
+		{A63BED48-66EF-4C80-9257-08AA0CA67220}.Debug|x86.ActiveCfg = Debug|x86
+		{A63BED48-66EF-4C80-9257-08AA0CA67220}.Debug|x86.Build.0 = Debug|x86
+		{A63BED48-66EF-4C80-9257-08AA0CA67220}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{A63BED48-66EF-4C80-9257-08AA0CA67220}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{A63BED48-66EF-4C80-9257-08AA0CA67220}.Release|x86.ActiveCfg = Release|x86
+		{A63BED48-66EF-4C80-9257-08AA0CA67220}.Release|x86.Build.0 = Release|x86
+		{A63BED48-66EF-4C80-9257-08AA0CA67220}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{A63BED48-66EF-4C80-9257-08AA0CA67220}.Release|Xbox 360.Build.0 = Release|Xbox 360
+		{ED68B1C4-2C44-42C9-96F8-34481073F92D}.Debug|x86.ActiveCfg = Debug|x86
+		{ED68B1C4-2C44-42C9-96F8-34481073F92D}.Debug|x86.Build.0 = Debug|x86
+		{ED68B1C4-2C44-42C9-96F8-34481073F92D}.Debug|Xbox 360.ActiveCfg = Debug|x86
+		{ED68B1C4-2C44-42C9-96F8-34481073F92D}.Release|x86.ActiveCfg = Release|x86
+		{ED68B1C4-2C44-42C9-96F8-34481073F92D}.Release|x86.Build.0 = Release|x86
+		{ED68B1C4-2C44-42C9-96F8-34481073F92D}.Release|Xbox 360.ActiveCfg = Release|x86
+		{EC0E6A3F-6034-46FA-8F3E-7CCA4F718590}.Debug|x86.ActiveCfg = Debug|x86
+		{EC0E6A3F-6034-46FA-8F3E-7CCA4F718590}.Debug|x86.Build.0 = Debug|x86
+		{EC0E6A3F-6034-46FA-8F3E-7CCA4F718590}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{EC0E6A3F-6034-46FA-8F3E-7CCA4F718590}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{EC0E6A3F-6034-46FA-8F3E-7CCA4F718590}.Release|x86.ActiveCfg = Release|x86
+		{EC0E6A3F-6034-46FA-8F3E-7CCA4F718590}.Release|x86.Build.0 = Release|x86
+		{EC0E6A3F-6034-46FA-8F3E-7CCA4F718590}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{EC0E6A3F-6034-46FA-8F3E-7CCA4F718590}.Release|Xbox 360.Build.0 = Release|Xbox 360
+		{89D90E4D-291D-44AF-B261-91FF4C4621E2}.Debug|x86.ActiveCfg = Debug|x86
+		{89D90E4D-291D-44AF-B261-91FF4C4621E2}.Debug|Xbox 360.ActiveCfg = Debug|x86
+		{89D90E4D-291D-44AF-B261-91FF4C4621E2}.Release|x86.ActiveCfg = Release|x86
+		{89D90E4D-291D-44AF-B261-91FF4C4621E2}.Release|Xbox 360.ActiveCfg = Release|x86
+		{C3F17E77-7FE0-4175-8649-157567A7D324}.Debug|x86.ActiveCfg = Debug|x86
+		{C3F17E77-7FE0-4175-8649-157567A7D324}.Debug|Xbox 360.ActiveCfg = Debug|x86
+		{C3F17E77-7FE0-4175-8649-157567A7D324}.Release|x86.ActiveCfg = Release|x86
+		{C3F17E77-7FE0-4175-8649-157567A7D324}.Release|Xbox 360.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

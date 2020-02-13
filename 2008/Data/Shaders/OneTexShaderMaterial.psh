@@ -1,0 +1,8 @@
+
+ps.1.1
+
+// c0 is a color interpolant
+
+tex t0
+
+mul r0, t0, c0

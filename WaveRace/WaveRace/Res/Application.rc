@@ -1,0 +1,205 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Change Device",              ID_FILE_CHANGEDEVICE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_EXIT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON                    "directx.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_D3DSETTINGS DIALOGEX 0, 0, 276, 282
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Direct3D Settings"
+FONT 8, "Tahoma", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,162,263,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,217,263,50,14
+    LTEXT           "Display &Adapter:",IDC_STATIC,17,20,62,8
+    COMBOBOX        IDC_COMBO_ADAPTER,112,18,146,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Render &Device:",IDC_STATIC,17,38,62,8
+    COMBOBOX        IDC_COMBO_DEVICE,112,36,146,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Display mode settings",IDC_STATIC,7,59,260,72
+    LTEXT           "Adapter F&ormat:",IDC_STATIC,17,75,62,8
+    COMBOBOX        IDC_COMBO_AFORMAT,112,73,146,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Resolution:",IDC_STATIC,17,93,62,8
+    COMBOBOX        IDC_COMBO_RESOLUTION,112,91,86,200,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "R&efresh Rate:",IDC_STATIC,17,111,62,8
+    COMBOBOX        IDC_COMBO_REFRESH,112,109,86,200,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "&Windowed",IDC_RADIO_WINDOWED,"Button",
+                    BS_AUTORADIOBUTTON,211,95,47,8
+    CONTROL         "&Fullscreen",IDC_RADIO_FULLSCREEN,"Button",
+                    BS_AUTORADIOBUTTON,211,111,47,8
+    GROUPBOX        "Device settings",IDC_STATIC,7,133,260,124
+    LTEXT           "&Back Buffer Format:",IDC_STATIC,17,148,95,8
+    COMBOBOX        IDC_COMBO_BBFORMAT,112,146,146,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "De&pth-Stencil Buffer Format:",IDC_STATIC,17,166,96,8
+    COMBOBOX        IDC_COMBO_DSFORMAT,112,164,146,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Multisample Type:",IDC_STATIC,17,184,96,8
+    COMBOBOX        IDC_COMBO_MSTYPE,112,182,146,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Multisample &Quality:",IDC_STATIC,17,202,96,8
+    COMBOBOX        IDC_COMBO_MSQUALITY,112,200,146,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Vertex Processing:",IDC_STATIC,17,220,96,8
+    COMBOBOX        IDC_COMBO_VPTYPE,112,218,146,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Present &Interval:",IDC_STATIC,17,238,96,8
+    COMBOBOX        IDC_COMBO_PINTERVAL,112,236,146,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Adapter and device",IDC_STATIC,7,7,260,50
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_D3DSETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 267
+        VERTGUIDE, 17
+        VERTGUIDE, 112
+        VERTGUIDE, 198
+        VERTGUIDE, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 277
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_CHANGEDEVICE    "Change the device, adapter and initialization settings."
+    ID_CAMERAMODE_FPS       "Switch to the first person style camera mode."
+    ID_CAMERAMODE_SPACECRAFT "Switch to the space craft style camera mode."
+    ID_CAMERAMODE_THIRDPERSON "Switch to the third person style camera mode."
+    ID_FILLMODE_SOLID       "Renders scene using a solid fill mode"
+    ID_FILLMODE_WIREFRAME   "Renders scene using a wireframe fill mode"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MIPFILTER_NONE       "Disable Mip-Mapping."
+    ID_MIPFILTER_POINT      "Sample mip-maps using point filtering."
+    ID_MIPFILTER_LINEAR     "Sample mip-maps using linear filtering."
+    ID_MINFILTER_NONE       "Disable Filtering."
+    ID_MINFILTER_POINT      "Render scene using point filtering."
+    ID_MINFILTER_LINEAR     "Render scene using linear filtering."
+    ID_MINFILTER_ANISOTROPIC "Render scene using anisotropic filtering."
+    ID_MAGFILTER_NONE       "Disable Filtering."
+    ID_MAGFILTER_POINT      "Render scene using point filtering."
+    ID_MAGFILTER_LINEAR     "Render scene using linear filtering."
+    ID_MAGFILTER_ANISOTROPIC "Render scene using anisotropic filtering."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_RENDERLAYER_BASE     "Enable / disable the rendering of the base layer."
+    ID_RENDERLAYER_1        "Enable / disable the rendering of layer 1."
+    ID_RENDERLAYER_2        "Enable / disable the rendering of layer 2."
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,107 @@
+1. Get the player game object and all related classes working, including the physics and camera.
+2. Get the physics for collisions and triggers working, including game objects.
+3. Get floating objects physcis and game objects complete.
+4. Create a decent shader for the scene and do a small section to get the look right.
+5. Add a post process shader.
+
+Water
+ x Rendering
+ x GetHeight and GetNormal
+ x Refactor into the 4 classes
+ - Get values from FW3D
+ - Add reflection / refraction
+ - Fix rendering of floating objects so they penetrate the alpha of the water
+ 
+Physics (Collision)
+ x Create Manager
+ 2 Add terrain, water, static objects, racers
+ x Handle collision
+
+Course
+ 2 Render Buoys
+ 2 Animate Buoys & floating props (other boats)
+ 2 Buoys and floating props buoyancy physics
+
+ Racer
+ 1 Physics / Motion
+ 1 Collision (Water, Terrain, Other Objects)
+ - Crash
+ - Reset Position
+ 1 Tuning Values
+ - Animated Character
+ 
+Player
+ 1 Controls
+ 
+AI
+ - Generate Nav Path around waypoints
+ - Navigation
+ - Steering
+ - Driving Aid
+
+Scene
+ - Shaders
+ - Quad Tree
+ - Render with bone transforms (see demo code)
+ 
+Session
+ - Game Mode(s)
+ - Scoring
+ - Course Rules
+
+Pickups
+ - Generate Random
+ - Render
+ - Use
+ - Inventory
+
+Camera
+ - Cinematic Pan
+ 1 Player 3rd Person
+ - Replay / Demo
+ 
+User Interface
+ - Dynamics (Speed, etc)
+ - Pickup Inventory
+ - Damage
+ - Scoring
+ 
+Effects
+ - Sun Glare
+ - Fog
+ - Splash / Wake
+ 
+Front End
+ - Menu
+ - Save and Load
+ - Character / Sea Doo Select
+ - Demo Mode
+ - Session Start
+ - Session End / Score
+ 
+Sound
+ - Front End
+ - Engine
+ - Splash
+ - Collide
+ - Cries
+ - Ambient
+ - Music
+ 
+Terrain
+ - LOD
+ 
+Sky
+ x Use CubeMap
+ - Fix Stitching (appears to be texture compression issue, migh copy the texture pixels across the texture edges and store uncompressed)
+ 
+Content
+ - Courses
+ - Export Static Assets
+ - Terrain Textures
+ - SkyBoxes
+ - Characters
+ - Vehicles
+ - Buoys
+ 
+EOF

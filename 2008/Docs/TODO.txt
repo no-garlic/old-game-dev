@@ -1,0 +1,162 @@
+
+----------------------------------------------------------------
+DEV
+----------------------------------------------------------------
+
+(cameras and views)
+--------------------------
+0.5 - Camera control with the mouse
+1.5 - T, B, L, R, F, K, P for axis aligned views (only P has control of the camera in 3d, others can pan and zoom only)
+0.5 - ViewMode toolbar items (current camera + view mode)
+
+(aligning and snapping objects to each other or a grid)
+--------------------------------------------------------------
+0.5 - Create editor controls to set the grid settings
+
+(bugfix)
+--------------------------
+0.5 - Aspect ratio is bad when resizing the viewport
+1.0 - Update all icons so the tree has every icon to distinguish state
+1.0 - Align the enabled / disabled state of icons, menu items, etc..
+0.5 - Check all menu options and toolbar buttons are hooked up
+
+----------------------------------------------------------------
+POLISH
+----------------------------------------------------------------
+
+(aligning and snapping objects to each other or a grid)
+--------------------------------------------------------------
+- D to drop an object onto the ground plane or the object that is below it on the -Y axis (down)
+- Align to neighboring object in x, y, or z (move only, not rotate - and use bbox)
+
+(lights and environment)
+-------------------------------
+- Create editor controls to set the environment values
+- Update the game to support the new level file format
+
+(sky box)
+----------------
+- Support sky boxes in the content and in the level file
+- Add a skybox to a level
+- Update the game to support the new level file format and render the skybox
+
+(selecting content)
+--------------------------
+- Add checkboxes to content, and option to check / uncheck an entire group and subgroups and add all to the menu.
+
+(rendering materials and pivots)
+---------------------------------------
+- Fix bug with unlit wireframe not using material color
+- Render axis gizmo
+- Render mesh pivot points
+
+(view options)
+--------------------------
+- Select view types (mesh, triggers, etc)
+- ViewType dialog
+- Render a grid / ground plane + settings for grid or to match snap
+- Antialias
+
+(bugfix)
+--------------------------
+- Minimise should hide all sub forms
+- Exit should be able to be cancelled
+- Mouse cursors when moving / etc objects
+- Confirmation dialogs (deleting, etc)
+- Use generic type info for nodes instead of string compare (GetType() == "")
+- Guarentee unique names (is this needed - already unique within a path)
+
+----------------------------------------------------------------
+COMPLETE
+----------------------------------------------------------------
+
+(add scale and support float values)
+-------------------------------------------
+- Fix rendering of models (some are black)
+- Fix picking / selection bug (possibly CW / CCW issue)
+- Click anywhere to unselect (or press escape)
+- Change pos / rot boxes to be edit boxes (no spinners), and add validators (and boxes for scale)
+- Add the ability to scale and values to the level config file
+- Update the game to support the new level file format
+- Check all combinations of scale, rotate, and position (check order of operations is correct)
+
+(undo and toolbar)
+-------------------------
+- Test out pathing for tree view
+- Main toolbar - undo ops, file ops, copy ops, etc.
+- Undo and Redo Manager
+- Bind to (ctrl-Z, ctrl-Y) and add to menu
+- Make pos, rot, scale edit boxes only register change on leave or pressing enter (for undo)
+
+(action system)
+------------------------
+- Create an action system for the following actions:
+  - undo / redo
+  - save / save as / load / new / close
+  - move / rotate / delete
+  - select tool / move tool / rotate tool / scale tool
+  - constraint: x / y / z / xy / xz / yz
+    
+(move, scale, and rotate with mouse, and constrain axis)
+---------------------------------------------------------------
+- Add buttons for selecting: select, transform, scale, and rotate
+- Add constraint buttons for x, y, z, xy, xz, yz
+- Move, rotate, scale objects with mouse once selected
+- Undo and Redo for moving static meshes
+
+(scene management in the tree)
+-------------------------------------
+- Dulpicate objects (support cut, copy, paste in tree)
+- Delete objects and groups
+- Shift move, rotate, scale to duplicate (in the same group)
+- Actions: cut / copy / paste
+- Actions: add / delete
+- Undo Action for adding meshes
+- Undo Action for deleting meshes
+- Undo Action for duplicating meshes
+- Undo Action for cut / paste meshes
+- Undo Action for copy / paste meshes
+- Undo Action for adding groups
+- Undo Action for deleting groups
+- Drag and drop (move)
+- Fix bug with not selecting at the start of a move operation
+- Delete key should not delete if focus is not on the treeview or the scene
+- Ensure SetDirty() is called for all actions
+
+(renaming objects and uniqueness)
+----------------------------------------
+- Rename objects and groups
+- When an object is added and an auto name is generated, check the new name and keep increasing the counter until unique
+- Fix bug with appending numbers to auto added meshes and groups
+- Store counters in the level file
+
+(cameras and views)
+--------------------------
+- Z to zoom extents (focus on world bounding sphere)
+- Z to focus on an object (focus on object's bounding sphere)
+- ViewMode menu items
+- Zoom menu items (zoom selected, zoom extents)
+- Zoom into first object when it's created
+
+(aligning and snapping objects to each other or a grid)
+--------------------------------------------------------------
+- Snap to a grid
+
+(lights and environment)
+-------------------------------
+- Support lights in level file
+- Global ambient value, near / far plane, FOV, fog values, etc saved in level file
+
+(rendering materials and pivots)
+---------------------------------------
+- Add picking / rendering / frozen flags to meshes
+- Highlight material for selected object
+- Gray material for frozen objects
+- Fix bitfield
+- Store frozen, render, pick settings in level file
+- Actions / undo for frozen and render settings
+- Wireframe mode
+- Unlit mode
+- NoTex mode
+- WireOverTex mode
+- Fix ViewMode options

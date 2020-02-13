@@ -1,0 +1,2 @@
+** ERROR **   Failed to initialise OpenAL sound engine
+** ERROR **   Failed to load the sound engine
